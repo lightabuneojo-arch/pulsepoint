@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PulseFit</title>
+      <script src="https://cdn.tailwindcss.com"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+      <link rel="icon" type="image/png" href="logo1.png">
+</head>
+<body>
+
+    <!-- left -->
+    <nav class="fixed top-0 left-0 w-full bg-blue-900 border-b border-white-700 z-20 ">
+   <!-- logo -->
+     <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+     <img src="logo1.png" alt="fitness" class="h-[78px]">
+  
+
+     <!-- navigation -->
+     <ul class="flex hidden md:flex gap-10 text-white">
+       <li class="font-semibold hover:text-blue-500 transition">HOME</li>
+       <li class="font-semibold hover:text-blue-500 transition">FEATURES</li>
+       <li class="font-semibold hover:text-blue-500 transition">PRICING</li>
+       <li class="font-semibold hover:text-blue-500 transition">COMMUNITY</li>
+     </ul>
+
+    <button class="md:hidden bg-white text-blue-900 px-5 py-2 rounded-full font-semibold hover:bg-blue-200 transition">
+      CONTACT US
+    </button>
+    <button class="md:hidden text-white text-2xl">☰</button>
+    </div>
+    </nav>
+
+      <section class="relative overflow-hidden bg-gradient-to-r from-blue-700 to-blue-900 pt-[100px] pb-20 min-h-screen flex flex-col justify-center">
+
+   <svg 
+  class="absolute inset-0 w-full h-full" 
+  viewBox="0 0 1440 900"
+  preserveAspectRatio="none"
+>
+  <path fill="white" fill-opacity="0.15"
+    d="M0,750L80,734C160,718,320,686,480,696.7C640,707,800,741,960,752C1120,763,1280,753,1360,747.3L1440,752V900H0Z">
+  </path>
+</svg> 
+
+  <!-- hero section -->
+  <div class=" flex flex-col md:flex-row flex items-center gap-12 px-10 py-10 mx-16"> 
+
+    <!-- LEFT SIDE (TEXT) -->
+  <div class="max-w-xl flex-1">
+    <p class="text-gray-300 text-4xl font-bold leading-tight">
+      Train Smarter,<br>Not harder with PulseFit.
+    </p>
+    <p class="text-gray-400 mt-4">
+      AI powered workouts for everyone.
+    </p>
+ 
+
+  <button class="mt-6 bg-white text-blue-900 px-5 py-2 rounded-full font-semibold hover:bg-blue-200 transition">
+ Get Started
+</button>
+  </div>
+
+      <!-- RIGHT SIDE (IMAGE) -->
+<div class="relative z-10 flex flex-col md:flex-row items-center gap-12 px-6 py-10">
+    <img src="runm.png" alt="fitness" class="h-[400px] md:h-[500px] object-contain">
+  </div>
+</div>
+</section>
+
+  <!-- features -->
+ 
+
+      <!-- feature cards -->
+ <section class="py-20 px-6 bg-blue-950">
+    <div>
+    <p class="text-white text-2xl -mt-4 font-bold text-center">
+    FEATURES
+  </p>
+   </div>
+
+    <div class="max-w-6xl mx-auto mt-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+    <!-- CARD 1 -->
+    <div class="bg-blue-900 rounded-2xl shadow-lg p-6 text-white transition-transform duration-300 hover:scale-110">
+      <div class="relative rounded-xl overflow-hidden h-48">
+        <img src="AI2.png" alt="workout" class="w-full h-full object-cover">
+        <div class="absolute inset-0 bg-blue-900 opacity-40"></div>
+      </div>
+      <h3 class="text-xl font-bold mt-4">Smart Workouts</h3>
+      <p class="text-gray-400 mt-2 text-sm">AI generated workout plans tailored to your body and goals.</p>
+      <button class="mt-4 bg-white text-blue-900 px-4 py-2 rounded-full text-sm font-semibold hover:bg-blue-200 transition">
+        Learn More
+      </button>
+    </div>
+
+    <!-- CARD 2 -->
+    <div class="bg-blue-900 rounded-2xl shadow-lg p-6 text-white transition-transform duration-300 hover:scale-110">
+      <div class="relative rounded-xl overflow-hidden h-48">
+        <img src="FOOD.png" alt="nutrition" class="w-full h-full object-cover">
+        <div class="absolute inset-0 bg-blue-900 opacity-40"></div>
+      </div>
+      <h3 class="text-xl font-bold mt-4">Nutrition Tracking</h3>
+      <p class="text-gray-400 mt-2 text-sm">Track your meals and get AI powered diet recommendations.</p>
+      <button class="mt-4 bg-white text-blue-900 px-4 py-2 rounded-full text-sm font-semibold hover:bg-blue-200 transition">
+        Learn More
+      </button>
+    </div>
+
+    <!-- CARD 3 -->
+    <div class="bg-blue-900 rounded-2xl shadow-lg p-6 text-white transition-transform duration-300 hover:scale-110">
+      <div class="relative rounded-xl overflow-hidden h-48">
+        <img src="PR.png" alt="progress" class="w-full h-full object-cover">
+        <div class="absolute inset-0 bg-blue-900 opacity-40"></div>
+      </div>
+      <h3 class="text-xl font-bold mt-4">Progress Reports</h3>
+      <p class="text-gray-400 mt-2 text-sm">Visual reports that show how far you have come every week.</p>
+      <button class="mt-4 bg-white text-blue-900 px-4 py-2 rounded-full text-sm font-semibold hover:bg-blue-200 transition">
+        Learn More
+      </button>
+    </div>
+
+  </div>
+</section>
+
+<section class="py-20 bg-blue-950">
+  <div class="max-w-2xl mx-auto px-6">
+
+    <!-- heading + filter row -->
+    <div class="flex items-center justify-between mb-8">
+      <h2 class="text-white text-3xl font-bold">Leaderboard</h2>
+      <select class="bg-blue-900 text-white px-4 py-2 rounded-full border border-blue-700 outline-none cursor-pointer">
+        <option value="weekly">Weekly</option>
+        <option value="monthly">Monthly</option>
+        <option value="alltime">All Time</option>
+      </select>
+    </div>
+
+    <!-- leaderboard rows -->
+    <div class="flex flex-col gap-4">
+
+      <!-- 1st place -->
+      <div class="flex items-center justify-between bg-yellow-500 p-4 rounded-2xl">
+        <p class="text-white font-bold text-lg w-8"></p>
+        <p class="text-white flex-1 ml-4 font-bold">Dynamite</p>
+        <p class="text-white font-bold">4,200 pts</p>
+      </div>
+
+      <!-- 2nd place -->
+      <div class="flex items-center justify-between bg-gray-400 p-4 rounded-2xl">
+        <p class="text-white font-bold text-lg w-8"></p>
+        <p class="text-white flex-1 ml-4 font-bold">ROSE</p>
+        <p class="text-white font-bold">3,850 pts</p>
+      </div>
+
+      <!-- 3rd place -->
+      <div class="flex items-center justify-between bg-orange-700 p-4 rounded-2xl">
+        <p class="text-white font-bold text-lg w-8"></p>
+        <p class="text-white flex-1 ml-4 font-bold">TOCHUKWU</p>
+        <p class="text-white font-bold">3,100 pts</p>
+      </div>
+
+      <!-- rest -->
+      <div class="flex items-center justify-between bg-blue-900 p-4 rounded-2xl">
+        <p class="text-white font-bold text-lg w-8">4</p>
+        <p class="text-white flex-1 ml-4">IronMAN</p>
+        <p class="text-blue-400 font-bold">2,800 pts</p>
+      </div>
+
+      <div class="flex items-center justify-between bg-blue-900 p-4 rounded-2xl">
+        <p class="text-white font-bold text-lg w-8">5</p>
+        <p class="text-white flex-1 ml-4">GymRat</p>
+        <p class="text-blue-400 font-bold">2,500 pts</p>
+      </div>
+
+    </div>
+  </div> 
+</section>
+
+<section class="py-20 bg-blue-950">
+  <div class="max-w-5xl mx-auto px-6">
+
+    <!-- heading -->
+    <div class="text-center mb-12">
+      <h2 class="text-white text-4xl font-bold">Choose Your Plan</h2>
+      <p class="text-gray-400 mt-3">Start free. Upgrade when you are ready.</p>
+    </div>
+
+    <!-- 3 cards -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 gap-8 items-center">
+
+      <!-- BASIC -->
+      <div class="bg-blue-900 p-8 rounded-2xl shadow-lg">
+        
+        <p class="text-blue-400 text-sm font-semibold uppercase tracking-widest">Basic</p>
+        <p class="text-white text-5xl font-bold mt-4">Free</p>
+        <p class="text-gray-400 text-sm mt-1">Forever</p>
+
+        <ul class="mt-8 flex flex-col gap-4">
+          <li class="text-gray-400 text-sm">✅ 3 workouts per week</li>
+          <li class="text-gray-400 text-sm">✅ Basic progress tracking</li>
+          <li class="text-gray-400 text-sm">✅ Community access</li>
+          <li class="text-gray-400 text-sm">❌ AI recommendations</li>
+          <li class="text-gray-400 text-sm">❌ Nutrition tracking</li>
+          <li class="text-gray-400 text-sm">❌ Priority support</li>
+        </ul>
+
+        <button class="mt-10 w-full border border-blue-400 text-blue-400 py-3 rounded-full font-bold hover:bg-blue-800 transition">
+          Choose Plan
+        </button>
+
+      </div>
+
+      <!-- PRO (highlighted) -->
+      <div class="bg-white p-8 rounded-2xl shadow-2xl scale-105">
+        
+        <!-- badge -->
+        <span class="bg-blue-600 text-white text-xs px-3 py-1 rounded-full font-semibold">
+          MOST POPULAR
+        </span>
+
+        <p class="text-blue-900 text-xl font-bold mt-4">Pro</p>
+        <p class="text-blue-900 text-5xl font-bold mt-2">$9<span class="text-lg font-normal">/mo</span></p>
+        <p class="text-gray-500 text-sm mt-1">Billed monthly</p>
+
+        <ul class="mt-8 flex flex-col gap-4">
+          <li class="text-gray-700 text-sm">✅ Unlimited workouts</li>
+          <li class="text-gray-700 text-sm">✅ Advanced progress tracking</li>
+          <li class="text-gray-700 text-sm">✅ Community access</li>
+          <li class="text-gray-700 text-sm">✅ AI recommendations</li>
+          <li class="text-gray-700 text-sm">✅ Nutrition tracking</li>
+          <li class="text-gray-700 text-sm">❌ Priority support</li>
+        </ul>
+
+        <button class="mt-10 w-full bg-blue-700 text-white py-3 rounded-full font-bold hover:bg-blue-800 transition">
+          Choose Plan
+        </button>
+
+      </div>
+
+      <!-- ELITE -->
+      <div class="bg-blue-900 p-8 rounded-2xl shadow-lg">
+
+        <p class="text-blue-400 text-sm font-semibold uppercase tracking-widest">Elite</p>
+        <p class="text-white text-5xl font-bold mt-4">$19<span class="text-lg font-normal">/mo</span></p>
+        <p class="text-gray-400 text-sm mt-1">Billed monthly</p>
+
+        <ul class="mt-8 flex flex-col gap-4">
+          <li class="text-gray-400 text-sm">✅ Unlimited workouts</li>
+          <li class="text-gray-400 text-sm">✅ Advanced progress tracking</li>
+          <li class="text-gray-400 text-sm">✅ Community access</li>
+          <li class="text-gray-400 text-sm">✅ AI recommendations</li>
+          <li class="text-gray-400 text-sm">✅ Nutrition tracking</li>
+          <li class="text-gray-400 text-sm">✅ Priority support</li>
+        </ul>
+
+        <button class="mt-10 w-full border border-blue-400 text-blue-400 py-3 rounded-full font-bold hover:bg-blue-800 transition">
+          Choose Plan
+        </button>
+
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- newsletter -->
+<section class="bg-blue-950 py-20">
+  <div class="flex flex-col gap-4 max-w-2xl mx-auto py-4 text-center px-6">
+    
+    <h2 class="text-white text-4xl font-bold">
+      Join 10,000+ athletes leveling up
+    </h2>
+    <p class="text-gray-400">
+      Get weekly workout tips, plans and updates.
+    </p>
+
+    <!-- input + button side by side -->
+    <div class="flex gap-3 mt-2">
+      <input 
+        type="email" 
+        placeholder="Enter your email" 
+        class="flex-1 px-4 py-2 rounded-full outline-none bg-blue-900 text-white placeholder-gray-400">
+      <button class="bg-blue-700 text-white px-5 py-2 rounded-full font-semibold hover:bg-blue-800 transition">
+        Subscribe
+      </button>
+    </div>
+
+  </div>
+</section>
+
+<!-- footer -->
+  <footer class="bg-blue-950 px-4 py-10 ">
+    <div class="max-w-6xl mx-auto flex items-center justify-between">
+    <img src="logo1.png" alt="PulseFit Logo" class="w-[10%] px-4 mx-auto">
+
+     <div class="flex gap-8">
+      <a href="#" class="text-gray-400 hover:text-white transition text-sm">About</a>
+      <a href="#" class="text-gray-400 hover:text-white transition text-sm">Contact</a>
+      <a href="#" class="text-gray-400 hover:text-white transition text-sm">Privacy Policy</a>
+    </div>
+      <div class="flex gap-4 text-gray-400 text-xl mx-auto">
+      <i class="fa-brands fa-twitter hover:text-white transition cursor-pointer"></i>
+      <i class="fa-brands fa-instagram hover:text-white transition cursor-pointer"></i>
+      <i class="fa-brands fa-youtube hover:text-white transition cursor-pointer"></i>
+    </div>
+
+  </div>
+  <div class="max-w-6xl mx-auto border-t border-blue-800 mt-8 pt-6 text-center">
+    <p class="text-gray-400 text-sm">&copy; 2026 PulseFit. All rights reserved.</p>
+  </div>
+
+  </footer>
+
+</body>
+</html>
+
+
+
+
+
